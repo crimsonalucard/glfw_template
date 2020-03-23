@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="glfw_template"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-release\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw_template">
+				<Option output="/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/bin/glfw_template" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/brianyeh/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include"/>
+					<Add directory="/Users/brianyeh/.conan/data/glfw/3.3/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/brianyeh/CLionProjects/glfw_template/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 glfw_template"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw_template/fast">
+				<Option output="/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/bin/glfw_template" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/brianyeh/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include"/>
+					<Add directory="/Users/brianyeh/.conan/data/glfw/3.3/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/brianyeh/CLionProjects/glfw_template/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 glfw_template/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LoadShaders">
+				<Option output="/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/lib/libLoadShaders.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/brianyeh/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include"/>
+					<Add directory="/Users/brianyeh/.conan/data/glfw/3.3/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/brianyeh/CLionProjects/glfw_template/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 LoadShaders"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LoadShaders/fast">
+				<Option output="/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/lib/libLoadShaders.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/brianyeh/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include"/>
+					<Add directory="/Users/brianyeh/.conan/data/glfw/3.3/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/brianyeh/CLionProjects/glfw_template/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 LoadShaders/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vgl">
+				<Option output="/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/lib/libvgl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/brianyeh/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include"/>
+					<Add directory="/Users/brianyeh/.conan/data/glfw/3.3/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/brianyeh/CLionProjects/glfw_template/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 vgl"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vgl/fast">
+				<Option output="/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/lib/libvgl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/brianyeh/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include"/>
+					<Add directory="/Users/brianyeh/.conan/data/glfw/3.3/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/brianyeh/CLionProjects/glfw_template/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 vgl/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/brianyeh/CLionProjects/glfw_template/include/LoadShaders.h">
+			<Option target="glfw_template"/>
+			<Option target="LoadShaders"/>
+		</Unit>
+		<Unit filename="/Users/brianyeh/CLionProjects/glfw_template/include/vgl.h">
+			<Option target="glfw_template"/>
+			<Option target="vgl"/>
+		</Unit>
+		<Unit filename="/Users/brianyeh/CLionProjects/glfw_template/lib/LoadShaders.cpp">
+			<Option target="LoadShaders"/>
+		</Unit>
+		<Unit filename="/Users/brianyeh/CLionProjects/glfw_template/lib/vgl.cpp">
+			<Option target="vgl"/>
+		</Unit>
+		<Unit filename="/Users/brianyeh/CLionProjects/glfw_template/main.cpp">
+			<Option target="glfw_template"/>
+		</Unit>
+		<Unit filename="/Users/brianyeh/CLionProjects/glfw_template/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/conanbuildinfo.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-release\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

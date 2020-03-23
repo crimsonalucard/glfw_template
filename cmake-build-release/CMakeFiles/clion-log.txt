@@ -1,0 +1,39 @@
+conan install /Users/brianyeh/CLionProjects/glfw_template -if=/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release -pr=default
+Configuration:
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Release
+compiler=apple-clang
+compiler.libcxx=libc++
+compiler.version=11.0
+os=Macos
+os_build=Macos
+[options]
+[build_requires]
+[env]
+
+conanfile.txt: Installing package
+Requirements
+    glew/2.1.0@bincrafters/stable from 'conan-center' - Cache
+    glfw/3.3@bincrafters/stable from 'conan-center' - Cache
+Packages
+    glew/2.1.0@bincrafters/stable:8e2e3059f283d3d138b85d022534c5632c4ffd1b - Cache
+    glfw/3.3@bincrafters/stable:f74366f76f700cc6e991285892ad7a23c30e6d47 - Cache
+
+Installing (downloading, building) binaries...
+glew/2.1.0@bincrafters/stable: Already installed!
+glfw/3.3@bincrafters/stable: Already installed!
+conanfile.txt: Generator cmake created conanbuildinfo.cmake
+conanfile.txt: Generator txt created conanbuildinfo.txt
+conanfile.txt: Generated conaninfo.txt
+conanfile.txt: Generated graphinfo
+"/Users/brianyeh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /Users/brianyeh/CLionProjects/glfw_template
+-- Conan: Adjusting output directories
+-- Conan: Using cmake global configuration
+-- Conan: Adjusting default RPATHs Conan policies
+-- Conan: Adjusting language standard
+-- Current conanbuildinfo.cmake directory: /Users/brianyeh/CLionProjects/glfw_template/cmake-build-release
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/brianyeh/CLionProjects/glfw_template/cmake-build-release

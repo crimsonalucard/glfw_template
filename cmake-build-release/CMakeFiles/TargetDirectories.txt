@@ -1,0 +1,5 @@
+/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/CMakeFiles/glfw_template.dir
+/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/CMakeFiles/edit_cache.dir
+/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/CMakeFiles/LoadShaders.dir
+/Users/brianyeh/CLionProjects/glfw_template/cmake-build-release/CMakeFiles/vgl.dir
